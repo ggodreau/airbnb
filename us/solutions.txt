@@ -1,0 +1,18 @@
+clean 'city' column
+  note trailing whitespace on 'Washington ' rows 1870, 3325
+  change 'Washington, D.C' to 'Washington' (63 replacements)
+  note: 'chevy chase' is actually a city in maryland
+  change 'Capitol Hill, Washington' to 'Washington'
+  change 'Adams Morgan' to 'Washington' (row 2455)
+clean 'state' column
+  change 'Washington DC' to 'DC' (row 2455)
+clean 'neighbourhood' column
+  change 'Capitol Heights, MD' to 'Capitol Heights' (row 10)
+  change 'Chillum, MD, to 'Chillum' (rows 4, 18)
+  change 'Mt Rainier/Brentwood, MD' to Mt Rainier/Brentwood'  (3 replacements)
+  change 'Silver Spring, MD' to 'Silver Spring' (7 replacements)
+  change 'Takoma Park, MD' to 'Takoma Park' (row 24)
+  impute blanks with the following formula, where 'AK5' is 'neighbourhood_cleansed' column:
+    =LEFT(AK5,FIND(",",AK5,1)-1)
+	filter to only blank values within 'neighbourhood' column and propagate the above formula (353 blanks filled)
+  
