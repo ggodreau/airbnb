@@ -44,6 +44,7 @@ In this project, an investor is seeking to invest in a short-term rental propert
 | Filename | Description |
 | -------- | ------------------ |
 |`mkt_data.csv` | This is the raw data from which you will start your study |
+| `mkt_names.csv` | This is a list of the fields contained in `mkt_data.csv` |
 | `mkt_instructions.docx` | This is a list of prompts you will answer |
 | `solutions/mkt_solution.xlsx` | This is an excel workbook containing the result of your analysis on the .csv file |
 | `solutions/mkt_solution.pptx` | This is a powerpoint presentation containing the answers to the prompts in mkt_instructions.docx |

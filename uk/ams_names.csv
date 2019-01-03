@@ -1,0 +1,53 @@
+column_name,type,description
+id,int,"GUID of listing, unique across all of AirBnB systems "
+listing_url,string,URL to the listing
+name,string,main title of listing
+summary,string,short summary of listing
+description,string,verbose summary of listing
+host_id,int,int  GUID of host unique across all of AirBnB systems
+host_since,date,creation date of host_id
+host_location,string,registered location of residence of host (not listing)
+host_response_rate,percent,percentage of inbound messages host responds to (0 to 100%)
+host_acceptance_rate,percent,percentage of inbound requests to stay accepted by host (0 to 100%)
+host_is_superhost,bool,t if host is superhost else f
+host_listings_count,int,number of listings under the authority of the host_id
+host_total_listings_count,int,number of listings under the authority of the host_id
+street,string,street address of listing
+neighbourhood,array,comma separated list of neighborhoods to which the listing belongs
+city,string,name of city to which listing belongs
+state,string,two letter abbreviation of state to which listing belongs
+zipcode,int,zip code of listing
+smart_location,string,estimated location of listing by city state
+latitude,float,latitude of listing
+longitude,float,longitude of listing
+is_location_exact,bool,if longitude and latitude are estimated then f else t
+property_type,string,type of property listing is
+room_type,string,listing type i.e. if listing is private room or whole apartment
+accommodates,int,number of people listing is capable of containing
+bathrooms,float,number of bathrooms in listing
+bedrooms,int,number of bedroomw in listing
+beds,int,number of beds in listing
+bed_type,string,type of bed in listing
+amenities,array,comma separated list of ameneties available to listing
+price,money,nightly price of listing in EUR
+weekly_price,money,weekly price of listing in EUR
+monthly_price,money,monthly price of listing in EUR
+security_deposit,money,money held in trust to be returned to leasee upon undamaged return of listing
+cleaning_fee,money,non-refundable fee billed to leasee upon vacancy of listing
+guests_included,int,number of guests included in the base price of listing
+extra_people,money,price in EUR per extra person added to listing above guests_included amount
+minimum_nights,int,minimum number of nights the listing can be booked for
+maximum_nights,int,maximum number of nights the listing can be booked for
+calendar_updated,string,most recent time the availability of the listing was updated
+number_of_reviews,int,number of reviews in the history of the listing between first_review and last_review
+first_review,date,date of first review on record for listing
+last_review,date,date of last review on record for listing
+review_scores_rating,percent,overall review score of listing
+review_scores_accuracy,percent,accuracy of listing rating
+review_scores_cleanliness,percent,cleanliness of listing rating
+review_scores_checkin,percent,checkin of listing rating
+review_scores_communication,percent,communication of listing rating
+review_scores_location,percent,location of listing rating
+review_scores_value,percent,value of listing rating
+instant_bookable,bool,t if listing is able to be booked without host approval else f
+cancellation_policy,string,policy for cancellation of a listing reservation
