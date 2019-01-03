@@ -33,22 +33,28 @@ In this project, an investor is seeking to invest in a short-term rental propert
 
 In this repo, you will find the following folder hierarchy:
 
-- `/uk` (the root of the Amsterdam market study)
-- `/us` (the root of the Washington, D.C. market study)
-- `/assets` (shared assets between the two markets)
+| Folder | Description |
+| -------- | ------------------ |
+| `/uk`    | The root of the Amsterdam market study |
+| `/us` | The root of the Washington, D.C. market study |
+| `/assets` | Shared assets between the two markets |
 
 Both projects (`/us` and `/uk` folders) include the following, where 'mkt' (market) is either 'dc' for Washington, D.C., or 'ams' for Amsterdam:
 
-- `mkt_data.csv` - this is the raw data from which you will start your study
-- `mkt_instructions.docx` - this is a list of prompts you will answer
-- `solutions/mkt_solution.xlsx` - this is an excel workbook containing the result of your analysis on the .csv file
-- `solutions/mkt_solution.pptx` - this is a powerpoint presentation containing the answers to the prompts in mkt_instructions.docx
-- `solutions/mkt_solution.twb` - this is a tableau file which references `mkt_solution.xlsx` and presents an alternative method of analysis to `mkt_solution.pptx`. This is for your reference only and is not a requirement of the exercise
-- `solutions/mkt_solution.pdf` - this is a `.pdf` file of the 'tableau story' contained in `mkt_solution.twb`. This is for your reference only and is not a requirement of the exercise
+| Filename | Description |
+| -------- | ------------------ |
+|`mkt_data.csv` | This is the raw data from which you will start your study |
+| `mkt_instructions.docx` | This is a list of prompts you will answer |
+| `solutions/mkt_solution.xlsx` | This is an excel workbook containing the result of your analysis on the .csv file |
+| `solutions/mkt_solution.pptx` | This is a powerpoint presentation containing the answers to the prompts in mkt_instructions.docx |
+| `solutions/mkt_solution.twb` | This is a tableau file which references `mkt_solution.xlsx` and presents an alternative method of analysis to `mkt_solution.pptx`. This is for your reference only and is not a requirement of the exercise |
+| `solutions/mkt_solution.pdf` | This is a `.pdf` file of the 'tableau story' contained in `mkt_solution.twb`. This is for your reference only and is not a requirement of the exercise |
 
 The `/assets` folder contains the following:
 
-- `rubric.xlsx` - this is the grading rubric to be used to assess your deliverable presentation and analysis
+| Filename | Description |
+| -------- | ------------------ |
+| `rubric.xlsx` | This is the grading rubric to be used to assess your deliverable presentation and analysis |
 
 ## Tableau
 
