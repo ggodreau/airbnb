@@ -31,16 +31,13 @@ In this project, an investor is seeking to invest in a short-term rental propert
 
 ## Project Repo Structure
 
-In this repo, you will find the following folder hierarchy:
-
+- In this repo, you will find the following folder hierarchy:
 | Folder | Description |
 | -------- | ------------------ |
 | `/uk`    | The root of the Amsterdam market study |
 | `/us` | The root of the Washington, D.C. market study |
 | `/assets` | Shared assets between the two markets |
-
-Both projects (`/us` and `/uk` folders) include the following, where 'mkt' (market) is either 'dc' for Washington, D.C., or 'ams' for Amsterdam:
-
+- Both projects (`/us` and `/uk` folders) include the following, where 'mkt' (market) is either 'dc' for Washington, D.C., or 'ams' for Amsterdam:
 | Filename | Description |
 | -------- | ------------------ |
 |`mkt_data.csv` | This is the raw data from which you will start your study |
@@ -49,9 +46,7 @@ Both projects (`/us` and `/uk` folders) include the following, where 'mkt' (mark
 | `solutions/mkt_solution.pptx` | This is a powerpoint presentation containing the answers to the prompts in mkt_instructions.docx |
 | `solutions/mkt_solution.twb` | This is a tableau file which references `mkt_solution.xlsx` and presents an alternative method of analysis to `mkt_solution.pptx`. This is for your reference only and is not a requirement of the exercise |
 | `solutions/mkt_solution.pdf` | This is a `.pdf` file of the 'tableau story' contained in `mkt_solution.twb`. This is for your reference only and is not a requirement of the exercise |
-
-The `/assets` folder contains the following:
-
+- The `/assets` folder contains the following:
 | Filename | Description |
 | -------- | ------------------ |
 | `rubric.xlsx` | This is the grading rubric to be used to assess your deliverable presentation and analysis |
@@ -65,5 +60,7 @@ As discussed in the project structure section, this repo contains a sample table
   - Use a year number (i.e. '2018.x.x') release instead of a 10-number (i.e. '10.x.x') release. This is confusing because [tableau said they were deprecating the 10.x.x nomenclature](https://www.tableau.com/about/blog/2018/1/changing-our-version-numbering-new-software-releases-80853) in Jan 2018 but as of Dec 2018 they're still releasing it.
 - After the installer is complete and the application is started locally, the application will once again ask you for an email address prior to starting your 14-day trial. This email address, at the time of writing, did not need to be verified to proceed with the trial. In other words, you could technically enter an email you couldn't validate, like support@tableau.com.
 - At the time of writing, the tableau application can be run within a virtualized windows environment (tested with Windows 10 on Virtualbox 5.2.18)
+
+---
 
 *Copyright 2019, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
